@@ -1,0 +1,81 @@
+DELIMITER //
+CREATE PROCEDURE sp_mediaRespFunc()
+
+BEGIN
+DECLARE	m1 DECIMAL(5,2);
+DECLARE m2 DECIMAL(5,2);
+DECLARE m3 DECIMAL(5,2);
+DECLARE m4 DECIMAL(5,2);
+DECLARE m5 DECIMAL(5,2);
+DECLARE m6 DECIMAL(5,2);
+DECLARE m7 DECIMAL(5,2);
+DECLARE m8 DECIMAL(5,2);
+DECLARE m9 DECIMAL(5,2);
+DECLARE m10 DECIMAL(5,2);
+DECLARE m11 DECIMAL(5,2);
+DECLARE m12 DECIMAL(5,2);
+DECLARE m13 DECIMAL(5,2);
+DECLARE m14 DECIMAL(5,2);
+DECLARE m15 DECIMAL(5,2);
+DECLARE m16 DECIMAL(5,2);
+               
+        SET m1 = (SELECT AVG(r1) FROM respostasFunc);
+        SET m2 = (SELECT AVG(r2) FROM respostasFunc);
+        SET m3 = (SELECT AVG(r3) FROM respostasFunc);
+        SET m4 = (SELECT AVG(r4) FROM respostasFunc);
+        SET m5 = (SELECT AVG(r5) FROM respostasFunc);
+        SET m6 = (SELECT AVG(r6) FROM respostasFunc);
+        SET m7 = (SELECT AVG(r7) FROM respostasFunc);
+        SET m8 = (SELECT AVG(r8) FROM respostasFunc);
+        SET m9 = (SELECT AVG(r9) FROM respostasFunc);
+        SET m10 = (SELECT AVG(r10) FROM respostasFunc);
+        SET m11= (SELECT AVG(r11) FROM respostasFunc);
+        SET m12 = (SELECT AVG(r12) FROM respostasFunc);
+        SET m13 = (SELECT AVG(r13) FROM respostasFunc);
+        SET m14 = (SELECT AVG(r14) FROM respostasFunc);
+        SET m15 = (SELECT AVG(r15) FROM respostasFunc);
+        SET m16 = (SELECT AVG(r16) FROM respostasFunc);
+		
+        INSERT INTO mediaRiscRespFunc VALUES (m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+END//
+DELIMITER ;DELIMITER //
+CREATE PROCEDURE sp_mediaRespFunc()
+
+BEGIN
+DECLARE	m1 DECIMAL(5,2);
+DECLARE m2 DECIMAL(5,2);
+DECLARE m3 DECIMAL(5,2);
+DECLARE m4 DECIMAL(5,2);
+DECLARE m5 DECIMAL(5,2);
+DECLARE m6 DECIMAL(5,2);
+DECLARE m7 DECIMAL(5,2);
+DECLARE m8 DECIMAL(5,2);
+DECLARE m9 DECIMAL(5,2);
+DECLARE m10 DECIMAL(5,2);
+DECLARE m11 DECIMAL(5,2);
+DECLARE m12 DECIMAL(5,2);
+DECLARE m13 DECIMAL(5,2);
+DECLARE m14 DECIMAL(5,2);
+DECLARE m15 DECIMAL(5,2);
+DECLARE m16 DECIMAL(5,2);
+               
+        SET m1 = (SELECT AVG(r1) FROM respostasFunc);
+        SET m2 = (SELECT AVG(r2) FROM respostasFunc);
+        SET m3 = (SELECT AVG(r3) FROM respostasFunc);
+        SET m4 = (SELECT AVG(r4) FROM respostasFunc);
+        SET m5 = (SELECT AVG(r5) FROM respostasFunc);
+        SET m6 = (SELECT AVG(r6) FROM respostasFunc);
+        SET m7 = (SELECT AVG(r7) FROM respostasFunc);
+        SET m8 = (SELECT AVG(r8) FROM respostasFunc);
+        SET m9 = (SELECT AVG(r9) FROM respostasFunc);
+        SET m10 = (SELECT AVG(r10) FROM respostasFunc);
+        SET m11= (SELECT AVG(r11) FROM respostasFunc);
+        SET m12 = (SELECT AVG(r12) FROM respostasFunc);
+        SET m13 = (SELECT AVG(r13) FROM respostasFunc);
+        SET m14 = (SELECT AVG(r14) FROM respostasFunc);
+        SET m15 = (SELECT AVG(r15) FROM respostasFunc);
+        SET m16 = (SELECT AVG(r16) FROM respostasFunc);
+		
+        INSERT INTO mediaRiscRespFunc VALUES (m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+END//
+DELIMITER ;
